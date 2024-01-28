@@ -4,28 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div id="navbar">
-        <p align="right">
-            <a>Gmail</a>&nbsp;
-            <a>Image</a>&nbsp;
+<body bgcolor="#202124">
+    <div class="navbar" align="right">
+        <p>
+            <a class="gmail" style="color:white" href="https://www.gmail.com">Gmail</a>&nbsp;&nbsp;&nbsp;
+            <a class="Image" style="color:white" href="https://www.google.com/photos/about/">Image</a>&nbsp;&nbsp;&nbsp;
             <img src="link" alt="Beta">
-            &nbsp;<img src="link" alt="Widges">
-            &nbsp;<img src="link" alt="Profile">
+            &nbsp;&nbsp;&nbsp;<img src="link" alt="Widges">
+            &nbsp;&nbsp;&nbsp;<img src="link" alt="Profile">
         </p>
     </div>
     
-    <div id="Name" align="center">
-        <img href="Assets\google_com.png" alt="Google">
+    <div class="Name">
+        <img class=google_logo src="google_com.png" alt="Google">
     </div>
-    
-    <form action="https://www.google.com/">
-        <button type="submit">Google Search</button>
-    </form>
 
-    <form action="https://www.google.com/search?q=">
+    <form class=search_box action="https://www.google.com/search?q=">
         <input type="text" name="query" placeholder="Search Google...">
     </form>
 
@@ -36,6 +31,37 @@
     <div id="bottom">
         <p>Google offered in: <a href="https://www.google.com/">हिन्दी</a> <a href="https://www.google.com/">मराठी</a> <a href="https://www.google.com/">ਪੰਜਾਬੀ</a></p>
     </div>
+    <div style="width: 390px; height: 390px; position: relative">
+        <div style="width: 118px; height: 118px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 0px; top: 136px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 0px; top: 272px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 136px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 136px; top: 136px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 136px; top: 272px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 272px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 272px; top: 136px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 118px; height: 118px; left: 272px; top: 272px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+      </div>
 
 </body>
+
+<style>
+    .google_logo{
+        height: 180px;
+        width:475px;
+        margin-top:200px;
+        margin:180px 600px 0px;
+    }
+    .gmail{
+        text-decoration: none;
+    }
+
+    .Image{
+        text-decoration: none;
+    }
+    .search_box{
+        margin-top:100px;
+        margin-left:750px;
+    }
+</style>
 </html>
